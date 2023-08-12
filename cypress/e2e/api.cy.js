@@ -5,6 +5,7 @@ describe("REST API TESTING",()=>{
             
             cy.log(JSON.stringify(response.body))
             expect(response.status).to.equal(200)
+            
         })
     })
 })
