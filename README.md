@@ -1,6 +1,5 @@
 # Rest API Testing Journey with Cypress
 
-![Cypress Logo](https://www.cypress.io/static/33498b5f95008093f5f4d0386472fef8/3cdf3/cypress-logo.webp)
 REST API testing doc [reqres.in](https://reqres.in/)
 
 ## What I've Explored
@@ -27,6 +26,6 @@ To dive into my project:
 
 2. **Install Dependencies:** Run `npm install` to get the required dependencies.
 
-3. **Explore the Tests:** Head to the `cypress/integration` directory to explore my API test scripts.
+3. **Explore the Tests:** Head to the `cypress/e2e` directory to explore my API test scripts.
 
-4. **Run the Tests:** Execute `npm test` to run my Cypress tests and witness the magic firsthand!
+4. **Run the Tests:** Execute `npx cypress open` to run my Cypress tests and witness the magic firsthand!
